@@ -579,56 +579,7 @@
   <h2 class="section-title">Projects & Work</h2>
   <div class="projects-grid">
 
-    <!-- 1. CI/CD Pipeline Migration -->
-    <div class="project-card fade-up">
-      <div class="project-visual">
-        <div class="vis-pipeline">
-          <svg width="280" height="140" viewBox="0 0 280 140" class="diagram">
-            <!-- Pipeline flow diagram -->
-            <defs>
-              <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-                <path d="M0,0 L6,3 L0,6 Z" fill="#4f7cff" opacity="0.7"/>
-              </marker>
-            </defs>
-            <!-- Nodes -->
-            <g>
-              <rect x="8" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#4f7cff" stroke-width="1" opacity="0.9"/>
-              <text x="35" y="68" text-anchor="middle" fill="#4f7cff" font-family="JetBrains Mono" font-size="7">Push</text>
-              <text x="35" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Git</text>
-            </g>
-            <line x1="62" y1="70" x2="82" y2="70" stroke="#4f7cff" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
-            <g>
-              <rect x="82" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#4f7cff" stroke-width="1" opacity="0.9"/>
-              <text x="109" y="68" text-anchor="middle" fill="#4f7cff" font-family="JetBrains Mono" font-size="7">Build</text>
-              <text x="109" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Docker</text>
-            </g>
-            <line x1="136" y1="70" x2="156" y2="70" stroke="#4f7cff" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
-            <g>
-              <rect x="156" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#00e5c0" stroke-width="1" opacity="0.9"/>
-              <text x="183" y="68" text-anchor="middle" fill="#00e5c0" font-family="JetBrains Mono" font-size="7">Test</text>
-              <text x="183" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">CI</text>
-            </g>
-            <line x1="210" y1="70" x2="226" y2="70" stroke="#00e5c0" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
-            <g>
-              <rect x="226" y="52" width="50" height="36" rx="6" fill="#111a2e" stroke="#00e5c0" stroke-width="1" opacity="0.9"/>
-              <text x="251" y="68" text-anchor="middle" fill="#00e5c0" font-family="JetBrains Mono" font-size="7">Deploy</text>
-              <text x="251" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Atlas</text>
-            </g>
-            <!-- bottom: Kubernetes → Atlas migration -->
-            <text x="140" y="120" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="7.5">Kubernetes → MongoDB Atlas Migration</text>
-            <line x1="30" y1="112" x2="250" y2="112" stroke="#4f7cff" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.3"/>
-          </svg>
-        </div>
-      </div>
-      <div class="project-body">
-        <div class="project-type">Kwantis S.R.L</div>
-        <div class="project-name">CI/CD Pipeline & MongoDB Migration</div>
-        <div class="project-desc">Automated deployment pipelines end-to-end and migrated a production MongoDB cluster from Kubernetes to MongoDB Atlas, eliminating manual ops overhead.</div>
-        <div class="project-tags">
-          <span class="tag">Python</span><span class="tag">Django</span><span class="tag">Kubernetes</span><span class="tag">MongoDB Atlas</span>
-        </div>
-      </div>
-    </div>
+
 
     <!-- 2. Hitachi Control Room -->
     <div class="project-card fade-up">
@@ -793,7 +744,56 @@
         </div>
       </div>
     </div>
-
+    <!-- 1. CI/CD Pipeline Migration -->
+    <div class="project-card fade-up">
+      <div class="project-visual">
+        <div class="vis-pipeline">
+          <svg width="280" height="140" viewBox="0 0 280 140" class="diagram">
+            <!-- Pipeline flow diagram -->
+            <defs>
+              <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#4f7cff" opacity="0.7"/>
+              </marker>
+            </defs>
+            <!-- Nodes -->
+            <g>
+              <rect x="8" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#4f7cff" stroke-width="1" opacity="0.9"/>
+              <text x="35" y="68" text-anchor="middle" fill="#4f7cff" font-family="JetBrains Mono" font-size="7">Push</text>
+              <text x="35" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Git</text>
+            </g>
+            <line x1="62" y1="70" x2="82" y2="70" stroke="#4f7cff" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
+            <g>
+              <rect x="82" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#4f7cff" stroke-width="1" opacity="0.9"/>
+              <text x="109" y="68" text-anchor="middle" fill="#4f7cff" font-family="JetBrains Mono" font-size="7">Build</text>
+              <text x="109" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Docker</text>
+            </g>
+            <line x1="136" y1="70" x2="156" y2="70" stroke="#4f7cff" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
+            <g>
+              <rect x="156" y="52" width="54" height="36" rx="6" fill="#111a2e" stroke="#00e5c0" stroke-width="1" opacity="0.9"/>
+              <text x="183" y="68" text-anchor="middle" fill="#00e5c0" font-family="JetBrains Mono" font-size="7">Test</text>
+              <text x="183" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">CI</text>
+            </g>
+            <line x1="210" y1="70" x2="226" y2="70" stroke="#00e5c0" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
+            <g>
+              <rect x="226" y="52" width="50" height="36" rx="6" fill="#111a2e" stroke="#00e5c0" stroke-width="1" opacity="0.9"/>
+              <text x="251" y="68" text-anchor="middle" fill="#00e5c0" font-family="JetBrains Mono" font-size="7">Deploy</text>
+              <text x="251" y="79" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="6">Atlas</text>
+            </g>
+            <!-- bottom: Kubernetes → Atlas migration -->
+            <text x="140" y="120" text-anchor="middle" fill="#7a85a3" font-family="JetBrains Mono" font-size="7.5">Kubernetes → MongoDB Atlas Migration</text>
+            <line x1="30" y1="112" x2="250" y2="112" stroke="#4f7cff" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-type">Kwantis S.R.L</div>
+        <div class="project-name">CI/CD Pipeline & MongoDB Migration</div>
+        <div class="project-desc">Automated deployment pipelines end-to-end and migrated a production MongoDB cluster from Kubernetes to MongoDB Atlas, eliminating manual ops overhead.</div>
+        <div class="project-tags">
+          <span class="tag">Python</span><span class="tag">Django</span><span class="tag">Kubernetes</span><span class="tag">MongoDB Atlas</span>
+        </div>
+      </div>
+    </div>
     <!-- 6. Voice Agent RAG -->
     <div class="project-card fade-up">
       <div class="project-visual">
@@ -917,13 +917,13 @@
     <div class="edu-card fade-up">
       <div class="edu-degree">Master of Science — Computer Science</div>
       <div class="edu-school">Università degli Studi di Genova &nbsp;·&nbsp; 2021–2023</div>
-      <div class="edu-badge">🎓 110/110 — Distinction</div>
+      <div class="edu-badge">🎓 110/110</div>
       <p style="font-size:0.82rem;color:var(--text-muted);margin-top:0.8rem;">Thesis: <em>Hitachi's Control Room Desktop Application</em> — cross-platform multi-monitor distributed system built with ElectronJS and Docker.</p>
     </div>
     <div class="edu-card fade-up">
       <div class="edu-degree">Bachelor of Science — Computer Science</div>
       <div class="edu-school">PAF-KIET &nbsp;·&nbsp; 2016–2019</div>
-      <div class="edu-badge">🏆 3.77/4 GPA — Distinction</div>
+      <div class="edu-badge">🏆 3.77/4 GPA — Highest CGPA</div>
       <p style="font-size:0.82rem;color:var(--text-muted);margin-top:0.8rem;">Thesis: <em>Smart Traffic Signal Management (ML)</em> — adaptive traffic control system using computer vision and machine learning.</p>
     </div>
   </div>
@@ -972,7 +972,7 @@
 </section>
 
 <footer>
-  <span style="color:var(--accent)">~/</span> abdulaleem &nbsp;·&nbsp; built with intention &nbsp;·&nbsp; <span style="color:var(--accent2)">2025</span>
+  <span style="color:var(--accent)">~/</span> abdulaleem &nbsp;·&nbsp; build for Portfolio &nbsp;·&nbsp; <span style="color:var(--accent2)">2026</span>
 </footer>
 
 <script>
